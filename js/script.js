@@ -17,3 +17,17 @@ $(document).ready(function(){
     });
     
   });
+
+  // 탑바 스크롤 배경색 변경 시작
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 1) {
+        $(".top-bar-wrap").css("background" , "black");
+      }
+      else{
+        $(".top-bar-wrap").css("background" , "none");   
+      }
+    })
+  })
+// 탑바 스크롤 배경색 변경 끝
