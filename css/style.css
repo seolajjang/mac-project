@@ -1,0 +1,289 @@
+/* 노멀라이징 */
+* {
+    padding:0;
+    margin:0;
+  }
+  ul,li{
+    list-style:none;
+    margin : 0 ;
+    padding : 0 ;
+  }
+  a{
+    color:inherit;
+    text-decoration:none;
+  }
+  * {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  /* 라이브러리 */
+  * > .box-1400-1000{
+    width : 1400px ;
+    height : 1000px ;
+  }
+  * > .box-1400-700{
+    width : 1400px ;
+    height : 700px ;
+  }
+  * > .txt-c{
+    text-align : center;
+  }
+  * > .txt-left{
+    text-align : left;
+  }
+  * > .bold-font{
+    font-weight : bold ;
+  }
+  * > .flex {
+    display:flex;
+  }
+  * > .flex-1-0-0 {
+    flex:1 0 0;
+  }
+  * > .flex-as-c {
+    align-self:center; 
+  }
+  * > .flex-ai-c {
+    align-items:center;
+  }
+  * > .flex-ai-sb {
+    align-items:space-between;
+  }
+  * > .flex-jc-sb {
+    justify-content:space-between;
+  }
+  * > .flex-jc-sa {
+    justify-content:space-around;
+  }
+  * > .flex-jc-c {
+    justify-content:center;
+  }
+  * > .height-100p {
+    height:100%;
+  }
+  * > .bg-red{
+    background-color : red ;
+  }
+  * > .bg-pink{
+    background-color : pink ;
+  }
+  * > .bg-yellowgreen{
+    background-color : yellowgreen ;
+  }
+  * > .bg-orange{
+    background-color : orange ;
+  }
+  * > .bg-grey{
+    background-color : grey ;
+  }
+  * > .bg-skyblue{
+    background-color : skyblue ;
+  }
+  * > .top-padding-30px{
+    padding-top : 30px ;
+  }
+  .cell{
+    float : left ;
+  }
+  .cell-r{
+    float : right ;
+  }
+  row::after{
+    display : block ;
+    clear : both ;
+    content : "" ;
+  }
+  .con{
+    width : 1920px ;
+    margin : 0 auto ;
+  }
+  /* 스타일 시작 */
+  /* 메인 슬라이드 */
+  .main-slide-wrap{
+    height : 1200px ;
+    position : relative ;
+  }
+  .main-slide-wrap .slide{
+    width : 100% ;
+    height : 1200px ;
+  }
+  .main-slide-wrap .slide img{
+    width : 100% ;
+    height : 100% ;
+  }
+  .main-slide-wrap .prev-arrow{
+    position : absolute ;
+    top: 50% ;
+    transform : translatey(-50%);
+    left : 30px ;
+    z-index:9;
+    color : white ;
+    font-size : 30px ;
+  }
+  .main-slide-wrap .next-arrow{
+    position : absolute ;
+    top: 50% ;
+    transform : translatey(-50%);
+    right : 30px ;
+    z-index:9;
+    color : white ;
+    font-size : 30px ;
+  }
+  .main-slide-wrap .slide01-txt-box{
+    width : 580px ;
+    height : 250px ;
+    color : white ;
+    line-height : 35px ;
+    position :absolute ;
+    top: 50% ; 
+    left: 90% ;
+    transform: translate(-90%,-50%) ;
+    z-index: 201 ;
+  }
+  .main-slide-wrap .slide01-txt-box h2{
+    padding-bottom : 10px ;
+    font-size : 30px ;
+    font-family: "Helvetica Neue MediumCond",sans-serif;
+  }
+  .main-slide-wrap .slide01-txt-box p{
+    font-family: "Helvetica Neue MediumCond",sans-serif;
+    font-size : 18px ;
+    font-weight : bold ;
+  }
+  .main-slide-wrap .slide02-txt-box p{
+    font-family: "Helvetica Neue MediumCond",sans-serif;
+    font-size : 18px ;
+    font-weight : bold ;
+  }
+  .main-slide-wrap .slide01-txt-box .new-box{
+    width : 100px ;
+    height : 50px ;
+    background-color : purple ;
+    line-height : 45px; 
+    margin-bottom : 30px ;
+    text-align : center ;
+    font-weight : bold ;
+  }
+  .main-slide-wrap .slide01-txt-box .new-box02{
+    width : 100px ;
+    height : 50px ;
+    background-color : hotpink ;
+    line-height : 45px; 
+    margin-bottom : 30px ;
+    text-align : center ;
+    font-weight : bold ;
+  }
+  .main-slide-wrap .slide01-txt-box .new-box p{
+    font-size : 26px ;
+  }
+  .main-slide-wrap .slide01-txt-box .new-box02 p{
+    font-size : 26px ;
+  }
+  .main-slide-wrap .slide01-txt-box .link-box{
+    width : 250px ;
+    height : 50px ;
+    text-align : center ; 
+    background-color : black ;
+    color : white ;
+    font-size : 18px ;
+    line-height : 50px ;
+    margin-top : 30px ;
+    font-weight : bold ;
+  }
+  /* 메인 슬라이드 끝 */
+  /* 탑바 메뉴 시작 */
+  .top-bar-wrap{
+    width : 1920px ;
+    height : 90px ;
+    border-bottom : 1px solid white ;
+    color : white ;
+    padding : 0px 40px ;
+    box-sizing : border-box ;
+    position : fixed ;
+    top: 0 ; 
+    left: 50% ;
+    transform: translate(-50%,0%) ;
+    display : flex ;
+    flex-grow: 1;
+    justify-content: space-between;
+    z-index : 0 ;
+  }
+  .top-bar-wrap:hover{
+    background-color : black ;
+    color : white ;
+  }
+  .top-bar-wrap .logo-box img{
+    width : 300px ;
+    height : 60px ;
+    padding-left : 10px ;
+    box-sizing : border-box ;
+    margin-top : 15px ;
+  }
+  
+  .top-bar-wrap .menu-box{
+    width : 900px ;
+    height : 90px ;
+    flex-grow: 1;
+  }
+  .top-bar-wrap .menu-box > ul > li > a{
+    font-weight: bold;
+    white-space:nowrap;
+    position : relative ;
+    margin : 0 50px ;
+    font-size: 19px;
+    font-family: "Helvetica Neue MediumCond",sans-serif;
+  }
+  .top-bar-wrap .menu-box > ul > li > a:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: white;
+    left: 0px;
+    bottom: 20px;
+    transform: scaleX(0);
+  }
+  .top-bar-wrap .menu-box > ul > li:hover > a:after{
+    transform : scalex(1);
+    transition: 0.5s; 
+  }
+  .top-bar-wrap .menu-box div{
+      display : none ;
+      position: absolute;
+      top: 90px;
+      left : 0 ;
+      right : 0 ;
+      background-color : black;
+      z-index: 0 ;
+      width: 100%;
+      height : 90px ;
+  }
+  .top-bar-wrap .menu-box > ul > li:hover > div{
+    display : block ;
+    transition : 1.5s ;
+    border-top : 1px solid black ;
+  }
+  .top-bar-wrap .menu-box > ul > li > div > ul{
+    display: none;
+    color : white ;
+    position:absolute;
+    transform:translatex(350px);
+    font-size : 16px ;
+    font-family: "Helvetica Neue MediumCond",sans-serif;
+    margin-top : 30px ;
+    z-index : 0 ;
+  }
+  .top-bar-wrap .menu-box > ul > li:hover > div > ul{
+    display : flex ;
+    
+  }
+  .top-bar-wrap .menu-box > ul > li > div > ul > li{
+    padding : 0 30px ;
+  }
+  .top-bar-wrap .menu-box > ul > li > div > ul > li:hover{
+    font-weight : bold ;
+  }
+  .top-bar-wrap > .icon-box{
+    width : 550px ;
+    height : 70px ;
+  }
+  /* 탑바 메뉴 끝 */
