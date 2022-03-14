@@ -31,3 +31,16 @@ $(document).ready(function(){
     })
   })
 // 탑바 스크롤 배경색 변경 끝
+
+// 추천메뉴 클릭시 변경 시작
+const tabList = document.querySelectorAll('.sec01-menu-wrap .list li');
+for(var i = 0; i < tabList.length; i++){
+  tabList[i].querySelector('.btn').addEventListener('click', function(e){
+    e.preventDefault();
+    for(var j = 0; j < tabList.length; j++){
+      tabList[j].classList.remove('is_on');
+    }
+    this.parentNode.classList.add('is_on');
+  });
+}
+// 추천메뉴 클릭시 변경 끝

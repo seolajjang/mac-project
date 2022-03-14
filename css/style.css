@@ -287,3 +287,271 @@
     height : 70px ;
   }
   /* 탑바 메뉴 끝 */
+
+  /* 추천 제품 시작 */
+.content-wrap > .section01{
+  margin-top: 10px;
+  margin-bottom : 100px ;
+  margin : 0 auto ;
+  width : 1400px ;
+  height : 1000px ;
+}
+.content-wrap > .section01 > p{
+  font-size: 30px;
+  font-family: "Helvetica Neue MediumCond",sans-serif;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom : 30px ;
+  color: black ;
+  text-transform: uppercase;
+  text-align: center;
+}
+.content-wrap > .section01 > .sec01-menu-wrap{
+  position:relative;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list{
+  overflow:hidden;
+  width : 300px ;
+  display: flex;
+  margin : 0 auto ;
+  box-sizing : border-box ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list li{ 
+  flex-wrap: nowrap;
+  margin : 0 auto ;
+  text-align : center ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .left-box{
+  width : 400px ;
+  height : 700px ;
+  background-color : red ;
+  margin-top : 50px ;
+  box-sizing : border-box;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .left-box > .top-box{
+  width : 100% ;
+  height : 450px ;
+  background-color : yellow ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .left-box > .bottom-box{
+  width : 100% ;
+  height : 250px ;
+  background-color : yellowgreen ;
+  line-height : 33px ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .left-box > .bottom-box > .sec01-left-con-txt-box{
+  font-family: "Helvetica Neue MediumCond",sans-serif;
+  padding-top : 45px ;
+  box-sizing : border-box ;
+  color : white ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .left-box > .bottom-box p:hover{
+  text-decoration : underline ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box{
+  width : 960px ;
+  height : 700px ;
+  background-color : blue ;
+  margin-left : 40px ;
+  margin-top : 50px ;
+  box-sizing : border-box;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con{
+   width : 320px ;
+  height : 700px ;
+  background-color : gray ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box .right-con-bottom p{
+  color : black ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con > .right-con-top{
+  width : 100% ;
+  height : 450px ;
+  background-color : green ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con .prodect-name > p{
+  margin : 25px;
+  font-size : 18px ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con .price-box{
+  margin : 20px ;
+  justify-content: center;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con .price-box > .heart-icon{
+  border-right : 1px  solid black ;
+  margin-right : 10px ;
+  padding-right : 10px ;
+  box-sizing : border-box ;
+  color :red ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con > .right-con-top > .new-box{
+  width : 60px ;
+  height : 30px ;
+  background-color : black ;
+  text-align : center ;
+  line-height : 27px ;
+  color : white ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con > .right-con-bottom{
+  width : 100% ;
+  height : 250px ;
+  background-color : greenyellow ;
+  color : white ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con > .right-con-bottom > .color-box{
+  justify-content: center;
+  
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list > li > div > .right-box > .right-con > .right-con-bottom .color{
+  width : 38px ;
+  height : 38px ;
+  border-radius: 50%;
+  margin : 10px 5px ;
+  box-sizing : border-box ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list .btn{
+  font-size : 16px ;
+  font-family: "Helvetica Neue MediumCond",sans-serif;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list .cont{
+  display:none; 
+  position:absolute; 
+  top:30px; 
+  left: 50% ;
+  border-top : 1px solid grey ;
+  border-bottom : 1px solid grey ;
+  transform: translate(-50%) ;
+  text-align:center; 
+  margin : 0 auto ;
+  width:1400px; 
+  height:800px;
+  box-sizing : border-box ;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list li.is_on .btn{
+  font-weight:bold; 
+  color:black;
+}
+.content-wrap > .section01 > .sec01-menu-wrap .list li.is_on .cont{
+  display:block;
+}
+/* 추천 제품 끝 */
+
+/* 비바 글램 시작 */
+.content-wrap > .section02{
+  width : 100% ;
+  height : 700px ;
+  border : 1px solid black ;
+  text-align : center ;
+  background-color : salmon ;
+  font-family: 'Noto Sans KR', 'Singulier-Bold', sans-serif;
+  margin-bottom : 80px ;
+  position : relative ;
+}
+.content-wrap > .section02 > .sec02-txt-box{
+  color : white ;
+  line-height : 40px ;
+  box-sizing : border-box ;
+  position : absolute ;
+  bottom: 20% ; 
+  left: 50% ;
+  transform: translate(-50%,-20%) ;
+}
+.content-wrap > .section02 > .sec02-link-box{
+  background-color: white;
+  text-align : center ;
+  height: 50px; 
+  width: 450px;
+  border-radius: 20px;
+  line-height : 50px ;
+  position : absolute ;
+  bottom: 10% ; 
+  left: 50% ;
+  transform: translate(-50%,-10%) ;
+}
+.content-wrap > .section02 > .sec02-link-box:hover{
+  background-color : black ;
+  color : white ;
+}
+/* 비바글램 끝 */
+
+/* 이벤트 내용 시작 */
+.content-wrap > .section03{
+  width : 1400px ;
+  height : 1000px ;
+  margin : 0 auto ;
+  text-align : left ;
+  padding-bottom : 80px ;
+  box-sizing : border-box ;
+  margin-bottom : 30px ;
+}
+.content-wrap > .section03 > p{
+  font-size : 30px ;
+  font-family: 'Noto Sans KR', 'Singulier-Bold', sans-serif;
+  font-weight : bold ;
+}
+.content-wrap > .section03 > .sec03-left-box{
+  width : 650px ;
+  height : 100% ;
+  padding-top : 20px ;
+  box-sizing : border-box ;
+}
+.content-wrap > .section03 > .sec03-left-box > .sec03-left-imgbox{
+  width : 100% ;
+  height : 850px ;
+  background-color : #ddd ;
+  margin : 20px 0px ;
+}
+.content-wrap > .section03 > .sec03-right-box{
+  width : 700px ;
+  height : 1000px ;
+  background-color : skyblue ;
+}
+/* 이벤트 내용 끝 */
+
+/* 베스트 제품 시작 */
+.content-wrap > .section04{
+  width : 1400px ;
+  height : 1000px ;
+  margin : 0 auto ;
+  text-align : center ;
+  border-bottom : 1px solid grey ;
+  border-top : 1px solid grey ;
+  margin-top : 100px;
+}
+.content-wrap > .section04 > p{
+  font-size : 30px ;
+  font-family: 'Noto Sans KR', 'Singulier-Bold', sans-serif;
+  font-weight : bold ;
+  padding-top : 30px ;
+  box-sizing : border-box ;
+}
+.content-wrap > .section04 > .best-box-wrap {
+  width : 1400px ;
+  height : 700px ;
+  background-color : red ;
+  margin : 0 auto ;
+  margin-top : 80px ;
+}
+.content-wrap > .section04 > .best-box-wrap > .left-box{
+  width : 50% ;
+  height : 100% ;
+  background-color : black ;
+}
+.content-wrap > .section04 > .best-box-wrap > .right-box{
+  width : 50% ;
+  height : 100% ;
+  background-color : skyblue ;
+}
+/* 베스트 제품 끝 */
+
+/* sns 시작 */
+.content-wrap > .section05{
+  width : 1400px ;
+  height : 300px ;
+  margin : 0 auto ;
+  text-align : center ;
+  background-color : orange ;
+  margin-top : 50px ;
+}
+
+/* sns 끝 */
