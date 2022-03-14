@@ -42,5 +42,5 @@ for(var i = 0; i < tabList.length; i++){
     }
     this.parentNode.classList.add('is_on');
   });
-}
+};
 // 추천메뉴 클릭시 변경 끝
